@@ -64,7 +64,7 @@ If you use this dataset, please cite:
 
 > **[Your Paper Title Here]**, 2025.  
 > Authors: [Names].  
-> Dataset available at: https://github.com/[your-repo-path]
+> Dataset available at: [https://github.com/jopersson/online-experimentation-literature-review](https://github.com/jopersson/online-experimentation-literature-review/)
 
 ---
 
