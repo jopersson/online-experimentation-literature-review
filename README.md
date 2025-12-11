@@ -62,8 +62,9 @@ A complete PRISMA flow diagram is provided in the appendix of the accompanying p
 
 If you use this dataset, please cite:
 
-> **[Your Paper Title Here]**, 2025.  
-> Authors: [Names].  
+> **Return-Aware Platform Experimentation: 
+New Directions for Research**, 2025.  
+> Authors: Jacqueline Doremus, Joel Persson, Brian St. Thomas, Carlos A. Flores, Sebastian Ankargren, Mårten Schultzberg, Kyle Kretschman.  
 > Dataset available at: [https://github.com/jopersson/online-experimentation-literature-review](https://github.com/jopersson/online-experimentation-literature-review/)
 
 ---
