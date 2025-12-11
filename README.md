@@ -4,7 +4,7 @@ This repository contains the curated dataset produced for our systematic literat
 
 ---
 
-## 🔍 Scope and Motivation
+## Scope and Motivation
 
 Online experimentation research spans many fields—Computer Science, Economics, Marketing, Operations Research, Information Systems, and Statistics—yet the literatures rarely reference each other. Our objective is to:
 
@@ -16,7 +16,7 @@ This dataset underpins the descriptive analyses and figures used in our paper.
 
 ---
 
-## 📁 Contents
+## Contents
 
 ### `lit_review_master.csv` (or your filename)
 Each row represents one publication. Columns include:
@@ -37,7 +37,7 @@ Each row represents one publication. Columns include:
 
 ---
 
-## 🧭 Search Methodology (PRISMA-Guided)
+## Search Methodology (PRISMA-Guided)
 
 The search procedure follows PRISMA principles (2009/2020) adapted for a cross-disciplinary, methods-focused review under strict word limits:
 
@@ -58,7 +58,7 @@ A complete PRISMA flow diagram is provided in the appendix of the accompanying p
 
 ---
 
-## 📊 Suggested Citation
+## Suggested Citation
 
 If you use this dataset, please cite:
 
@@ -69,17 +69,17 @@ New Directions for Research**, 2025.
 
 ---
 
-## 📄 License
+## License
 MIT License (or add your preferred license).
 
 ---
 
-## 🤝 Contributions
+## Contributions
 This repository is primarily for transparency and reproducibility. If you identify missing papers or misclassifications, feel free to open an issue or submit a pull request.
 
 ---
 
-## 📬 Contact
+## Contact
 For questions, please contact:  
 **Joel Persson** — joelpersson@spotify.com
 
