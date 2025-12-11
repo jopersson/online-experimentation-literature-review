@@ -18,22 +18,20 @@ This dataset underpins the descriptive analyses and figures used in our paper.
 
 ## Contents
 
-### `lit_review_master.csv` (or your filename)
-Each row represents one publication. Columns include:
+### `online_experimentation_SLR_2000_2025.csv`
+One row per publication. Columns are (in order):
 
-- **title** — full paper title  
-- **authors** (optional, if included)  
-- **year**  
-- **venue**  
+total_search_hits	industry_1st_author	micro_view	macro_view												
+
+- **title** — full paper title
+- **url** — link to paper
+- **venue** - publshing outlet (journal, conference proceedings, industry magazine, or preprint archive)
 - **database_searched** — e.g., INFORMS, ACM DL, IEEE Xplore  
-- **field** — disciplinary classification of the *outlet*  
-- **industry_first_author** — indicator for industry affiliation  
+- **field** — disciplinary classification of the *outlet* (preprints are labelled "preprint", and indsutry magazines are labelled "industry") \
+- **total_search_hits** - the number of initial hits per search, filled out only for one row per unique value of database_searched to yield correct summation over rows to total hits
+- **industry_first_author** — indicator for industry affiliation of first author (industry or academia)
 - **micro_view** — 1 if classified as micro-view  
 - **macro_view** — 1 if macro-view  
-- **foundational** — 1 for pre-existing or cross-cutting foundational work  
-- **included_in_final** — inclusion after full-text screening  
-- **url / doi**  
-- **notes**
 
 ---
 
