@@ -46,17 +46,17 @@ The search procedure follows PRISMA principles adapted for a cross-disciplinary,
 2. **Screening:**  
    Title + abstract screened using inclusion and exclusion criteria (see below) relevance to online experimentation, A/B testing, and related research.
 
-4. **Inclusion:**  
+3. **Inclusion:**  
    Our inclusion criteria were:
-   -- Published or publicly archived (journal, conference, practitioners’ magazine, or preprint).
-   -- Motivated by or addressing challenges in online experimentation, A/B testing, or related causal-inference and decision-making problems.
-   -- Could be classified into the micro or macro view on experimentation.
-   -- Written in English.
+   - Published or publicly archived (journal, conference, practitioners’ magazine, or preprint).
+   - Motivated by or addressing challenges in online experimentation, A/B testing, or related causal-inference and decision-making problems.
+   - Could be classified into the micro or macro view on experimentation.
+   - Written in English.
    
   If ambiguous, exclusion criteria were:
-  -- Purely empirical applications lacking methodological or theoretical contribution.
-  -- Biomedical, laboratory, simulation, or actual field-experiments (e.g., in development economics).
-  -- Review papers without original analytical or methodological content.
+  - Purely empirical applications lacking methodological or theoretical contribution.
+  - Biomedical, laboratory, simulation, or actual field-experiments (e.g., in development economics).
+  -  Review papers without original analytical or methodological content.
 
 ---
 
