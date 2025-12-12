@@ -72,7 +72,7 @@ New Directions for Research**, 2025.
 ---
 
 ## License
-MIT License (or add your preferred license).
+MIT License.
 
 ---
 
