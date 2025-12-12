@@ -37,22 +37,26 @@ total_search_hits	industry_1st_author	micro_view	macro_view
 
 ## Search Methodology (PRISMA-Guided)
 
-The search procedure follows PRISMA principles (2009/2020) adapted for a cross-disciplinary, methods-focused review under strict word limits:
+The search procedure follows PRISMA principles adapted for a cross-disciplinary, methods-focused review under strict word limits:
 
 1. **Identification:**  
    Searches were conducted across major publisher databases:  
    INFORMS, ACM Digital Library, IEEE Xplore, AEAweb, Oxford Academic, Econometrica Society, ScienceDirect, SpringerLink, JSTOR, AIS eLibrary, Cambridge Core, SAGE Journals, JMLR/Google Scholar, Taylor & Francis, Royal Statistical Society, Project Euclid, Wiley Online Library, PNAS/Nature/Science, arXiv, SSRN.
 
 2. **Screening:**  
-   Title + abstract screened using inclusion criteria: relevance to online experimentation, A/B testing, platform experimentation, return-aware decision-making, or causal-ML methods for experimentation.
-
-3. **Eligibility:**  
-   Full-text screening for ambiguous cases. Excluded non-methodological empirical papers, domain-specific medical/biological RCTs, and non-digital experiments unless conceptually relevant.
+   Title + abstract screened using inclusion and exclusion criteria (see below) relevance to online experimentation, A/B testing, and related research.
 
 4. **Inclusion:**  
-   Final dataset compiled into structured sheet with micro/macro/foundational classifications.
-
-A complete PRISMA flow diagram is provided in the appendix of the accompanying paper.
+   Our inclusion criteria were:
+   -- Published or publicly archived (journal, conference, practitioners’ magazine, or preprint).
+   -- Motivated by or addressing challenges in online experimentation, A/B testing, or related causal-inference and decision-making problems.
+   -- Could be classified into the micro or macro view on experimentation.
+   -- Written in English.
+   
+  If ambiguous, exclusion criteria were:
+  -- Purely empirical applications lacking methodological or theoretical contribution.
+  -- Biomedical, laboratory, simulation, or actual field-experiments (e.g., in development economics).
+  -- Review papers without original analytical or methodological content.
 
 ---
 
