@@ -1,6 +1,6 @@
 # Online Experimentation Literature Review (2000–2025)
 
-This repository contains the dataset used for the literature review underlying the paper *Return-Aware Platform Experimentation: New Directions for Research*:
+This repository contains the dataset used for the literature review in *Return-Aware Platform Experimentation: New Directions for Research*:
 
 Doremus, J., Persson, J., St. Thomas, B., Flores, C. A., Ankargren, S., Schultzberg, M., & Kretschman, K. (2025). *Return-aware platform experimentation: New directions for research*. SSRN. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6834318
 
