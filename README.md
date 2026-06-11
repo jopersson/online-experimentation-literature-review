@@ -1,87 +1,71 @@
 # Online Experimentation Literature Review (2000–2025)
 
-This repository contains the curated dataset produced for our systematic literature review of research on **online experimentation**, **A/B testing**, and **causal-inference–based evaluation methods** between **2000 and 2025**. The goal is to map the academic landscape across disciplines, distinguish between *micro* and *macro* analytical viewpoints, and support future research on experimentation programs, return-aware decision-making, and organizational approaches to testing at scale.
+This repository contains the dataset used for the literature review underlying the paper *Return-Aware Platform Experimentation: New Directions for Research*:
 
----
+Doremus, J., Persson, J., St. Thomas, B., Flores, C. A., Ankargren, S., Schultzberg, M., & Kretschman, K. (2025). *Return-aware platform experimentation: New directions for research*. SSRN. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6834318
 
-## Scope and Motivation
+The review covers research on online experimentation, A/B testing, and related causal-inference and decision-making problems from 2000 to 2025. The dataset was created to map where this work appears across disciplines and to distinguish between two analytical viewpoints:
 
-Online experimentation research spans many fields—Computer Science, Economics, Marketing, Operations Research, Information Systems, and Statistics—yet the literatures rarely reference each other. Our objective is to:
+- **Micro view:** research focused on design, estimation, inference, or decisions within individual experiments.
+- **Macro view:** research that studies experimentation as an organizational, institutional, or decision-theoretic process across many experiments.
 
-- identify all major outlets where experimentation research appears;  
-- systematically categorize papers into **micro view** (single-experiment design, estimation, causal inference) and **macro view** (program-level, decision-theoretic, organizational, return-aware);  
-- highlight foundational theoretical contributions that predate online experimentation but remain influential.
-
-This dataset underpins the descriptive analyses and figures used in our paper.
+The dataset is intended to make the review more transparent and to help researchers and practitioners find related work across fields.
 
 ---
 
 ## Contents
 
 ### `online_experimentation_SLR_2000_2025.csv`
-One row per publication. Columns are (in order):
 
-total_search_hits	industry_1st_author	micro_view	macro_view												
+One row per included publication. The main columns are:
 
-- **title** — full paper title
-- **url** — link to paper
-- **venue** - publshing outlet (journal, conference proceedings, industry magazine, or preprint archive)
-- **database_searched** — e.g., INFORMS, ACM DL, IEEE Xplore  
-- **field** — disciplinary classification of the *outlet* (preprints are labelled "preprint", and indsutry magazines are labelled "industry") \
-- **total_search_hits** - the number of initial hits per search, filled out only for one row per unique value of database_searched to yield correct summation over rows to total hits
-- **industry_first_author** — indicator for industry affiliation of first author (industry or academia)
-- **micro_view** — 1 if classified as micro-view  
-- **macro_view** — 1 if macro-view  
+- **title** — paper title
+- **url** — link to the paper
+- **venue** — publishing outlet, conference, industry magazine, or preprint archive
+- **database_searched** — database or source where the paper was identified
+- **field** — disciplinary classification of the outlet; preprints and industry magazines are coded separately
+- **total_search_hits** — number of initial hits for the corresponding database search, filled in once per `database_searched` value so totals can be recovered by summing over non-missing rows
+- **industry_first_author** — whether the first author was affiliated with industry or academia at the time of publication
+- **micro_view** — indicator for papers classified as taking the micro view
+- **macro_view** — indicator for papers classified as taking the macro view
 
----
+## Search and Classification
 
-## Search Methodology (PRISMA-Guided)
+The review follows PRISMA principles, adapted for a descriptive literature review rather than a meta-analysis.
 
-The search procedure follows PRISMA principles adapted for a cross-disciplinary, methods-focused review under strict word limits:
+Searches were conducted across major publisher databases, disciplinary outlets, and preprint archives, including INFORMS, ACM Digital Library, IEEE Xplore, AEAweb, Oxford Academic, ScienceDirect, SpringerLink, JSTOR, AIS eLibrary, Cambridge Core, SAGE Journals, JMLR / Google Scholar, Taylor & Francis, Royal Statistical Society, Project Euclid, Wiley Online Library, PNAS / Nature / Science, arXiv, and SSRN.
 
-1. **Identification:**  
-   Searches were conducted across major publisher databases:  
-   INFORMS, ACM Digital Library, IEEE Xplore, AEAweb, Oxford Academic, Econometrica Society, ScienceDirect, SpringerLink, JSTOR, AIS eLibrary, Cambridge Core, SAGE Journals, JMLR/Google Scholar, Taylor & Francis, Royal Statistical Society, Project Euclid, Wiley Online Library, PNAS/Nature/Science, arXiv, SSRN.
+The search returned 17,039 unique records after de-duplication. After title and abstract screening, full-text checks for ambiguous cases, and application of the inclusion and exclusion criteria, 355 papers were included in the final dataset.
 
-2. **Screening:**  
-   Title + abstract screened using inclusion and exclusion criteria (see below) relevance to online experimentation, A/B testing, and related research.
+Included papers had to be published or publicly archived, written in English, and motivated by or addressing challenges in online experimentation, A/B testing, or related causal-inference and decision-making problems. We excluded purely empirical applications without a methodological or theoretical contribution, biomedical and laboratory experiments, standard field experiments outside the online experimentation setting, and review papers without original analytical content.
 
-3. **Inclusion:**  
-   Our inclusion criteria were:
-   - Published or publicly archived (journal, conference, practitioners’ magazine, or preprint).
-   - Motivated by or addressing challenges in online experimentation, A/B testing, or related causal-inference and decision-making problems.
-   - Could be classified into the micro or macro view on experimentation.
-   - Written in English.
-   
-  If ambiguous, exclusion criteria were:
-  - Purely empirical applications lacking methodological or theoretical contribution.
-  - Biomedical, laboratory, simulation, or actual field-experiments (e.g., in development economics).
-  -  Review papers without original analytical or methodological content.
+Each paper was manually coded by analytical viewpoint, field of outlet, and first-author affiliation. Coding was performed by the two first authors of the paper and reconciled through discussion.
 
----
+## Main Descriptive Finding
+
+Among the 355 included papers, about 86% take the micro view of experimentation, while about 14% take the macro view. This imbalance motivates the paper’s focus on return-aware experimentation and on research questions that arise when experimentation is viewed as a resource-allocation and rollout-decision problem across many experiments. See Appendix A of the paper for additional results and discussion.
 
 ## Suggested Citation
 
-If you use this dataset, please cite:
+If you use this dataset, please cite the paper:
 
-> **Return-Aware Platform Experimentation: 
-New Directions for Research**, 2025.  
-> Authors: Jacqueline Doremus, Joel Persson, Brian St. Thomas, Carlos A. Flores, Sebastian Ankargren, Mårten Schultzberg, Kyle Kretschman.  
-> Dataset available at: [https://github.com/jopersson/online-experimentation-literature-review](https://github.com/jopersson/online-experimentation-literature-review/)
+Doremus, J., Persson, J., St. Thomas, B., Flores, C. A., Ankargren, S., Schultzberg, M., & Kretschman, K. (2025). *Return-aware platform experimentation: New directions for research*. SSRN. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6834318
 
----
+You may also cite this repository directly if you use or modify the dataset:
+
+Doremus, J., Persson, J., St. Thomas, B., Flores, C. A., Ankargren, S., Schultzberg, M., & Kretschman, K. (2025). *Online experimentation literature review (2000–2025)* [Dataset]. GitHub. https://github.com/jopersson/online-experimentation-literature-review/
 
 ## License
+
 MIT License.
 
----
-
 ## Contributions
-This repository is primarily for transparency and reproducibility. If you identify missing papers or misclassifications, feel free to open an issue or submit a pull request.
 
----
+This repository is primarily intended for transparency and reuse. If you notice missing papers, broken links, or classification errors, please open an issue or submit a pull request.
 
 ## Contact
-For questions, please contact:  
-**Joel Persson** — joelpersson@spotify.com
 
+For questions, please contact:
+
+Joel Persson  
+joelpersson@spotify.com
