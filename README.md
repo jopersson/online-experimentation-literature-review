@@ -4,12 +4,16 @@ This repository contains the dataset used for the literature review in *Return-A
 
 Doremus, J., Persson, J., St. Thomas, B., Flores, C. A., Ankargren, S., Schultzberg, M., & Kretschman, K. (2026). *Return-aware platform experimentation: New directions for research*. SSRN. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6834318
 
-The review covers research on online experimentation, A/B testing, and related causal-inference and decision-making problems from 2000 to 2025. The dataset was created to map where this work appears across disciplines and to distinguish between two analytical viewpoints:
+The paper argues that research on online experimentation has largely focused on how to improve design, estimation, inference, and decision-making within individual A/B tests. We call this the **micro view** of experimentation. For platform companies running many experiments, however, there is also a **macro view** that is arguably more important: how should he platform allocate limited experimentation capacity and make rollout decisions across many experiments to maximize cumulative returns over time?
+
+The literature review was conducted to map how much existing research has addressed each perspective, and where this work appears across academic fields and industry-oriented outlets. The dataset covers research on online experimentation, A/B testing, and related causal-inference and decision-making problems from 2000 to 2025 across computer science, economics, marketing, operations research, information systems, statistics, general science outlets, industry publications, and preprint archives.
+
+We distinguish between two analytical viewpoints:
 
 - **Micro view:** research focused on design, estimation, inference, or decisions within individual experiments.
 - **Macro view:** research that studies experimentation as an organizational, institutional, or decision-theoretic process across many experiments.
 
-The dataset is intended to make the review more transparent and to help researchers and practitioners find related work across fields.
+The dataset is intended to make the review more transparent and to help researchers and practitioners find related work across disciplinary boundaries.
 
 ---
 
@@ -43,7 +47,9 @@ Each paper was manually coded by analytical viewpoint, field of outlet, and firs
 
 ## Main Descriptive Finding
 
-Among the 355 included papers, about 86% take the micro view of experimentation, while about 14% take the macro view. This imbalance motivates the paper’s focus on return-aware experimentation and on research questions that arise when experimentation is viewed as a resource-allocation and rollout-decision problem across many experiments. See Appendix A of the paper for additional results and discussion.
+Among the 355 included papers, about 86% take the micro view of experimentation, while about 14% take the macro view. This imbalance motivates the paper’s focus on return-aware experimentation and on research questions that arise when experimentation is viewed as a resource-allocation and rollout-decision problem across many experiments.
+
+See Appendix A of the paper for additional results and discussion.
 
 ## Suggested Citation
 
