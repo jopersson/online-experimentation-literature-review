@@ -2,7 +2,7 @@
 
 This repository contains the dataset used for the literature review in *Return-Aware Platform Experimentation: New Directions for Research*:
 
-Doremus, J., Persson, J., St. Thomas, B., Flores, C. A., Ankargren, S., Schultzberg, M., & Kretschman, K. (2025). *Return-aware platform experimentation: New directions for research*. SSRN. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6834318
+Doremus, J., Persson, J., St. Thomas, B., Flores, C. A., Ankargren, S., Schultzberg, M., & Kretschman, K. (2026). *Return-aware platform experimentation: New directions for research*. SSRN. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6834318
 
 The review covers research on online experimentation, A/B testing, and related causal-inference and decision-making problems from 2000 to 2025. The dataset was created to map where this work appears across disciplines and to distinguish between two analytical viewpoints:
 
@@ -49,11 +49,11 @@ Among the 355 included papers, about 86% take the micro view of experimentation,
 
 If you use this dataset, please cite the paper:
 
-Doremus, J., Persson, J., St. Thomas, B., Flores, C. A., Ankargren, S., Schultzberg, M., & Kretschman, K. (2025). *Return-aware platform experimentation: New directions for research*. SSRN. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6834318
+Doremus, J., Persson, J., St. Thomas, B., Flores, C. A., Ankargren, S., Schultzberg, M., & Kretschman, K. (2026). *Return-aware platform experimentation: New directions for research*. SSRN. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6834318
 
 You may also cite this repository directly if you use or modify the dataset:
 
-Doremus, J., Persson, J., St. Thomas, B., Flores, C. A., Ankargren, S., Schultzberg, M., & Kretschman, K. (2025). *Online experimentation literature review (2000–2025)* [Dataset]. GitHub. https://github.com/jopersson/online-experimentation-literature-review/
+Doremus, J., Persson, J., St. Thomas, B., Flores, C. A., Ankargren, S., Schultzberg, M., & Kretschman, K. (2026). *Online experimentation literature review (2000–2025)* [Dataset]. GitHub. https://github.com/jopersson/online-experimentation-literature-review/
 
 ## License
 
